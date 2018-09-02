@@ -7,11 +7,13 @@ public class GameController : MonoBehaviour
 {
 	
 	public Tower tower1;
+	public Tower tower2;
 	
 
 	// Use this for initialization
 	void Start(){
-		//tower1.GenerateTower();
+		tower1.GenerateMap();
+		tower2.GenerateMap();
 	}
 
 	// Update is called once per frame

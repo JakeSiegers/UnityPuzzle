@@ -8,25 +8,42 @@ using Random = UnityEngine.Random;
 
 public class Tower : MonoBehaviour {
 	
-	private const int CubeCount = 21;
+	private const int CubeCount = 42;
 	private List<GameObject> _cubes;
 	private GameObject _cube;
 	private double _time = 0;
-	const double Pi2 = Math.PI * 2;
+	private const double Pi = Math.PI;
+	private const double TwoPi = Pi * 2;
+	private const double HalfPi = Pi/2;
 	
 	public int BoardWidth = 30;
 	public int BoardHeight = 13;
+	
+	private double _circlePieceSize;
+	private double _boardRadius;
+
+	public int StartingHeight = 13;
+
+	private double _blockWidth = 1;
+	private double _blockHeight = 1;
+	private double _blockDepth = 1;
 
 	private Dictionary<string, Color32> _blockColors;
 	private Dictionary<string, Texture2D> _blockTextures;
+	private List<string> _blockColorKeys;
+
+	private List<List<GameObject>> _map;
+
+	private Material _baseCubeMaterial;
 
 
 	// Use this for initialization
-	void Start () {
-		
-		var baseCubeMaterial = Resources.Load<Material>("Materials/base");
+	void Start (){
 
-		Debug.Log(baseCubeMaterial);
+		_circlePieceSize = TwoPi / BoardWidth;
+		_boardRadius = (_blockWidth*BoardWidth) / TwoPi;
+		
+		_baseCubeMaterial = Resources.Load<Material>("Materials/base");
 		
 		_blockColors = new Dictionary<string, Color32>{
 			{"circle", new Color32(76,175,80,1)},
@@ -48,80 +65,105 @@ public class Tower : MonoBehaviour {
 			{"penta", Resources.Load<Texture2D>("Textures/block_penta")}
 		};
 		
-		List<string> _blockColorKeys = new List<string>(this._blockColors.Keys);
+		_blockColorKeys = new List<string>(_blockColors.Keys);
 		
-		
+		/*
 		_cubes = new List<GameObject>(CubeCount);
 		for (var i = 0; i < _cubes.Capacity; i++){
 			var color = i % _blockColorKeys.Count;
 			_cubes.Add(Instantiate(Resources.Load("Cube", typeof(GameObject))) as GameObject);
-			_cubes[i].GetComponent<Renderer>().material = new Material(baseCubeMaterial){
+			_cubes[i].GetComponent<Renderer>().material = new Material(_baseCubeMaterial){
 				color = _blockColors[_blockColorKeys[color]],
 				mainTexture = _blockTextures[_blockColorKeys[color]]	
 			};
 		}
-		
+		*/
 
+		//var b = _generateBlock("heart");
+		//Debug.Log(b);
 	}
 	
-	/*
 	public void GenerateMap(){
-		Debug.Log("Generating Tower!");
+		Debug.Log("Generating Map!");
 		
-		let grid = [];
-		for (let gx = 0; gx < this.BoardWidth; gx++) {
-			let column = [];
-			for (let gy = 0; gy < this.BoardHeight; gy++) {
-				column.push(null);
+		_map = new List<List<GameObject>>(BoardWidth);
+		
+		for (var gx = 0; gx < BoardWidth; gx++) {
+			var column = new List<GameObject>(BoardHeight);
+			for (var gy = 0; gy < BoardHeight; gy++) {
+				column.Add(null);
 			}
-			grid.push(column);
+			_map.Add(column);
 		}
 
-		for (let x = 0; x < this.BoardWidth; x++) {
-			for (let y = 0; y < this.BoardHeight; y++) {
+		Debug.Log(BoardWidth);
+		Debug.Log(BoardHeight);
+		for (var x = 0; x < BoardWidth; x++) {
+			for (var y = 0; y < BoardHeight; y++) {
 
-				if (y >= this.startingHeight) {
-					grid[x][y] = null;
+				if (y >= StartingHeight) {
+					//_map[x][y] = null;
 					continue;
 				}
 
-				let colorPool = colorPoolIn.slice(0);
-				let lastXType = '';
-				let lastYType = '';
+				var colorPool = _blockColorKeys.GetRange(0,_blockColorKeys.Count);
+				var lastXType = "";
+				var lastYType = "";
 
-				for (let i = -2; i <= 2; i++) {
-					if (i === 0) {
+				for (var i = -2; i <= 2; i++) {
+					if (i == 0) {
 						continue;
 					}
-
-					let nextXBlock = grid[(x - i + this.BoardWidth) % this.BoardWidth][y];
-
-					if (nextXBlock !== null) {
-						let xType = nextXBlock;
-						let xPos = colorPool.indexOf(xType);
-						if (xType === lastXType && xPos !== -1 && colorPool.length > 1) {
-							colorPool.splice(xPos, 1);
+					var nextXBlock = _map[(x - i + this.BoardWidth) % this.BoardWidth][y];
+					if (nextXBlock != null) {
+						var xType = nextXBlock.GetComponent<Block>().BlockType;
+						var xPos = colorPool.IndexOf(xType);
+						if (xType == lastXType && xPos != -1 && colorPool.Count > 1) {
+							colorPool.RemoveAt(xPos);
 						}
 						lastXType = xType;
 					}
-					let nextYBlock = grid[x][(y - i + this.BoardHeight) % this.BoardHeight];
-
-					if (nextYBlock !== null) {
-						let yType = nextYBlock;
-						let yPos = colorPool.indexOf(yType);
-						if (yType === lastYType && yPos !== -1 && colorPool.length > 1) {
-							colorPool.splice(yPos, 1);
+					var nextYBlock = _map[x][(y - i + this.BoardHeight) % this.BoardHeight];
+					if (nextYBlock != null) {
+						var yType = nextYBlock.GetComponent<Block>().BlockType;
+						var yPos = colorPool.IndexOf(yType);
+						if (yType == lastYType && yPos != -1 && colorPool.Count > 1) {
+							colorPool.RemoveAt(yPos);
 						}
 						lastYType = yType;
 					}
 				}
-				grid[x][y] = colorPool[Math.floor(Math.random() * colorPool.length)];
+				//grid[x][y] = colorPool[Math.floor(Math.random() * colorPool.length)];
+				var type = colorPool[(int)Math.Floor(Random.value*colorPool.Count)];
+				//Debug.Log(type);
+				_map[x][y] = _generateBlock(type);
+				_setBlock3dPos(_map[x][y], x, y);
 			}
 		}
-		return grid;
-		
+		//return grid;
 	}
-	*/
+
+	private void _setBlock3dPos(GameObject block, int x, int y){
+		var newX = (Math.Cos(_circlePieceSize * x) * _boardRadius) + gameObject.transform.position.x;
+		var newY = (y * _blockHeight) + (_blockHeight / 2);
+		var newZ = Math.Sin(_circlePieceSize * x) * _boardRadius;
+		var newR = -_circlePieceSize * x + HalfPi;
+		block.transform.position = new Vector3((float)newX,(float)newY,(float)newZ);
+		var degrees = newR * (180 / Pi);
+		block.transform.rotation = Quaternion.Euler(0, (float)degrees, 0);
+	}
+
+	private GameObject _generateBlock(string type){
+		var cube = Instantiate(Resources.Load<GameObject>("Cube"));
+		cube.GetComponent<Renderer>().material = new Material(_baseCubeMaterial){
+			color = _blockColors[type],
+			mainTexture = _blockTextures[type]	
+		};
+		cube.GetComponent<Block>().BlockType = type;
+		cube.transform.parent = gameObject.transform;
+		return cube;
+	}
+	
 	
 	public void up(){
 		
@@ -130,19 +172,29 @@ public class Tower : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
-		_time = (Time.time*2)%Pi2;
+		_time = (Time.time/2)%TwoPi;
 
+		/*
 		for (var i = 0; i < _cubes.Capacity; i++)
 		{
 			var radians = (Pi2 / _cubes.Capacity) * i;
-			var x = (float) (Math.Cos(radians + _time) * 5);
-			var y = (float) (Math.Sin(radians + _time) * 5);
-			var z = (float) (Math.Cos(_time) * i);
+			var x = (float) (Math.Cos(radians + _time) * 8);
+			var y = (float) (Math.Sin(radians + _time) * 8);
+			var z = (float) (Math.Tan(_time) * (i+1));
 			_cubes[i].transform.position = new Vector3(x, y, z);
 			_cubes[i].transform.rotation = new Quaternion(x, y, z,0);
 			
 			//this.transform.position = new Vector3((float)Math.Sin(_time),(float)Math.Cos(_time), -10);
 		}
+		*/
+
+		for (var x = 0; x < BoardWidth; x++){
+			for (var y = 0; y < BoardHeight; y++){
+				_map[x][y].transform.rotation *= Quaternion.Euler(Random.value,Random.value,Random.value);
+			}
+		}
+		
+		gameObject.transform.rotation = Quaternion.Euler(0,(float)Math.Sin(_time)*360,0);
 		
 	}
 }
