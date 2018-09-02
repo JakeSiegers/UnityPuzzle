@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5b2f7d4-2416-465a-b05b-fc6c65aab3af" name="Default" comment="Moved files out of git lfs" />
+    <list default="true" id="b5b2f7d4-2416-465a-b05b-fc6c65aab3af" name="Default" comment="Puring everything from lfs" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +12,7 @@
     <session id="-482917954">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="2" />
@@ -22,13 +22,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cs" value="3106" />
-          <entry key="txt" value="48" />
+          <entry key="txt" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="C#" value="3106" />
-          <entry key="PLAIN_TEXT" value="48" />
+          <entry key="PLAIN_TEXT" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -46,133 +46,14 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tower.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2700">
-                  <caret line="186" column="95" selection-start-line="186" selection-start-column="95" selection-end-line="186" selection-end-column="95" />
-                  <folding>
-                    <marker date="1535850601269" expanded="false" signature="6:179" ph="..." />
-                    <marker date="1535850601269" expanded="true" signature="216:6051" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="987:2576" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="1202:1496" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="1551:2026" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="2093:2517" ph="/* _cubes = new List&lt;GameObject&gt;(CubeCount); ... */" />
-                    <marker date="1535850601269" expanded="true" signature="2521:2573" ph="/* var b = _generateBlock(&quot;heart&quot;); ... */" />
-                    <marker date="1535850601269" expanded="true" signature="2605:4294" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="2736:2886" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="2833:2861" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="2978:4274" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="3021:4270" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="3053:3101" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="3257:4016" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="3276:3300" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="3406:3654" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="3580:3622" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="3762:4010" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="3936:3978" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="4356:4798" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="4847:5174" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="4985:5060" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="5196:5203" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="5258:6049" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="5297:5769" ph="/* for (var i = 0; i &lt; _cubes.Capacity; i++) ... */" />
-                    <marker date="1535850601269" expanded="true" signature="5809:5956" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="5851:5952" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Assets/Block.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="7" selection-start-line="7" selection-end-line="7" />
-                  <folding>
-                    <marker date="1535847609312" expanded="false" signature="6:78" ph="..." />
-                    <marker date="1535847609312" expanded="true" signature="114:264" ph="{...}" />
-                    <marker date="1535847609312" expanded="true" signature="193:200" ph="{...}" />
-                    <marker date="1535847609312" expanded="true" signature="255:262" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-                  <folding>
-                    <marker date="1535850530727" expanded="false" signature="6:101" ph="..." />
-                    <marker date="1535850530727" expanded="true" signature="146:428" ph="{...}" />
-                    <marker date="1535850530727" expanded="true" signature="243:295" ph="{...}" />
-                    <marker date="1535850530727" expanded="true" signature="347:426" ph="{...}" />
-                    <marker date="1535850530727" expanded="true" signature="353:418" ph="/* _time += 0.01; ... */" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tower.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="442">
-                  <caret line="146" column="100" selection-start-line="146" selection-start-column="100" selection-end-line="146" selection-end-column="100" />
-                  <folding>
-                    <marker date="1535850601269" expanded="false" signature="6:179" ph="..." />
-                    <marker date="1535850601269" expanded="true" signature="216:6051" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="987:2576" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="1202:1496" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="1551:2026" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="2093:2517" ph="/* _cubes = new List&lt;GameObject&gt;(CubeCount); ... */" />
-                    <marker date="1535850601269" expanded="true" signature="2521:2573" ph="/* var b = _generateBlock(&quot;heart&quot;); ... */" />
-                    <marker date="1535850601269" expanded="true" signature="2605:4294" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="2736:2886" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="2833:2861" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="2978:4274" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="3021:4270" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="3053:3101" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="3257:4016" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="3276:3300" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="3406:3654" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="3580:3622" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="3762:4010" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="3936:3978" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="4356:4798" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="4847:5174" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="4985:5060" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="5196:5203" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="5258:6049" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="5297:5769" ph="/* for (var i = 0; i &lt; _cubes.Capacity; i++) ... */" />
-                    <marker date="1535850601269" expanded="true" signature="5809:5956" ph="{...}" />
-                    <marker date="1535850601269" expanded="true" signature="5851:5952" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Block.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/19E52A84-9248-47D4-A823-84169FA74432/56/18efa50f/Object.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F718FBF7-147E-4022-82FD-ACF37BDD8584/25/7b1637c9/Random.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/19E52A84-9248-47D4-A823-84169FA74432/32/2274c799/Resources.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ECB5D8E2-0A91-44BC-A4F2-58317D1E56F9/e4/ce1569cb/ArrayList.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ECB5D8E2-0A91-44BC-A4F2-58317D1E56F9/2c/a3ff10e5/List`1.cs" root0="SKIP_HIGHLIGHTING" />
@@ -201,7 +82,7 @@
     <option name="height" value="1407" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="UnityExplorer" proportions="" version="1">
+    <navigator currentView="FileSystemExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -243,7 +124,17 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
+      <pane id="FileSystemExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="Resource Loading" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
@@ -303,7 +194,7 @@
       <workItem from="1535817259497" duration="11000" />
       <workItem from="1535817867164" duration="18328000" />
       <workItem from="1535853010400" duration="388000" />
-      <workItem from="1535853579984" duration="1013000" />
+      <workItem from="1535853579984" duration="1131000" />
     </task>
     <task id="LOCAL-00001" summary="Moved files out of git lfs">
       <created>1535853606212</created>
@@ -347,11 +238,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535854299744</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Puring everything from lfs">
+      <created>1535854650615</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1535854650615</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29148000" />
+    <option name="totallyTimeSpent" value="29266000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -363,9 +261,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1287" y="287" width="1294" height="1407" extended-state="0" />
+    <frame x="-1454" y="287" width="1294" height="1407" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16288492" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16288492" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -380,7 +278,7 @@
       <window_info anchor="bottom" id="Unity" order="9" weight="0.2359015" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.2216" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3424" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.32962668" />
@@ -403,7 +301,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Moved files out of git lfs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved files out of git lfs" />
+    <MESSAGE value="Puring everything from lfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Puring everything from lfs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -464,14 +363,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Block.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="105">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <marker date="1535847609312" expanded="false" signature="6:78" ph="..." />
-            <marker date="1535847609312" expanded="true" signature="114:264" ph="{...}" />
-            <marker date="1535847609312" expanded="true" signature="193:200" ph="{...}" />
-            <marker date="1535847609312" expanded="true" signature="255:262" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -480,37 +373,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tower.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2700">
-          <caret line="186" column="95" selection-start-line="186" selection-start-column="95" selection-end-line="186" selection-end-column="95" />
-          <folding>
-            <marker date="1535850601269" expanded="false" signature="6:179" ph="..." />
-            <marker date="1535850601269" expanded="true" signature="216:6051" ph="{...}" />
-            <marker date="1535850601269" expanded="true" signature="987:2576" ph="{...}" />
-            <marker date="1535850601269" expanded="true" signature="1202:1496" ph="{...}" />
-            <marker date="1535850601269" expanded="true" signature="1551:2026" ph="{...}" />
-            <marker date="1535850601269" expanded="true" signature="2093:2517" ph="/* _cubes = new List&lt;GameObject&gt;(CubeCount); ... */" />
-            <marker date="1535850601269" expanded="true" signature="2521:2573" ph="/* var b = _generateBlock(&quot;heart&quot;); ... */" />
-            <marker date="1535850601269" expanded="true" signature="2605:4294" ph="{...}" />
-            <marker date="1535850601269" expanded="true" signature="2736:2886" ph="{...}" />
-            <marker date="1535850601269" expanded="true" signature="2833:2861" ph="{...}" />
-            <marker date="1535850601269" expanded="true" signature="2978:4274" ph="{...}" />
-            <marker date="1535850601269" expanded="true" signature="3021:4270" ph="{...}" />
-            <marker date="1535850601269" expanded="true" signature="3053:3101" ph="{...}" />
-            <marker date="1535850601269" expanded="true" signature="3257:4016" ph="{...}" />
-            <marker date="1535850601269" expanded="true" signature="3276:3300" ph="{...}" />
-            <marker date="1535850601269" expanded="true" signature="3406:3654" ph="{...}" />
-            <marker date="1535850601269" expanded="true" signature="3580:3622" ph="{...}" />
-            <marker date="1535850601269" expanded="true" signature="3762:4010" ph="{...}" />
-            <marker date="1535850601269" expanded="true" signature="3936:3978" ph="{...}" />
-            <marker date="1535850601269" expanded="true" signature="4356:4798" ph="{...}" />
-            <marker date="1535850601269" expanded="true" signature="4847:5174" ph="{...}" />
-            <marker date="1535850601269" expanded="true" signature="4985:5060" ph="{...}" />
-            <marker date="1535850601269" expanded="true" signature="5196:5203" ph="{...}" />
-            <marker date="1535850601269" expanded="true" signature="5258:6049" ph="{...}" />
-            <marker date="1535850601269" expanded="true" signature="5297:5769" ph="/* for (var i = 0; i &lt; _cubes.Capacity; i++) ... */" />
-            <marker date="1535850601269" expanded="true" signature="5809:5956" ph="{...}" />
-            <marker date="1535850601269" expanded="true" signature="5851:5952" ph="{...}" />
-          </folding>
+        <state relative-caret-position="442">
+          <caret line="146" column="100" selection-start-line="146" selection-start-column="100" selection-end-line="146" selection-end-column="100" />
         </state>
       </provider>
     </entry>
@@ -518,13 +382,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <marker date="1535850530727" expanded="false" signature="6:101" ph="..." />
-            <marker date="1535850530727" expanded="true" signature="146:428" ph="{...}" />
-            <marker date="1535850530727" expanded="true" signature="243:295" ph="{...}" />
-            <marker date="1535850530727" expanded="true" signature="347:426" ph="{...}" />
-            <marker date="1535850530727" expanded="true" signature="353:418" ph="/* _time += 0.01; ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
