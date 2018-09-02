@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5b2f7d4-2416-465a-b05b-fc6c65aab3af" name="Default" comment="Moved files out of git lfs">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-    </list>
+    <list default="true" id="b5b2f7d4-2416-465a-b05b-fc6c65aab3af" name="Default" comment="Moved files out of git lfs" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +195,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1287" />
+    <option name="x" value="-1454" />
     <option name="y" value="287" />
     <option name="width" value="1294" />
     <option name="height" value="1407" />
@@ -224,6 +222,12 @@
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
               <item name="Resources" type="1045f7f1:UnityExplorerNode" />
               <item name="Materials" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Resources" type="1045f7f1:UnityExplorerNode" />
+              <item name="Textures" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
@@ -299,7 +303,7 @@
       <workItem from="1535817259497" duration="11000" />
       <workItem from="1535817867164" duration="18328000" />
       <workItem from="1535853010400" duration="388000" />
-      <workItem from="1535853579984" duration="617000" />
+      <workItem from="1535853579984" duration="1013000" />
     </task>
     <task id="LOCAL-00001" summary="Moved files out of git lfs">
       <created>1535853606212</created>
@@ -322,11 +326,32 @@
       <option name="project" value="LOCAL" />
       <updated>1535853897230</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Moved files out of git lfs">
+      <created>1535854199978</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1535854199978</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Moved files out of git lfs">
+      <created>1535854283514</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1535854283514</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Moved files out of git lfs">
+      <created>1535854299744</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1535854299744</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28752000" />
+    <option name="totallyTimeSpent" value="29148000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -340,7 +365,7 @@
   <component name="ToolWindowManager">
     <frame x="-1287" y="287" width="1294" height="1407" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16288492" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16288492" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -355,7 +380,7 @@
       <window_info anchor="bottom" id="Unity" order="9" weight="0.2359015" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="11" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.2216" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.2216" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.32962668" />
