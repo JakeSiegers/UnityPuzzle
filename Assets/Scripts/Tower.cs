@@ -18,15 +18,8 @@ public class Tower : MonoBehaviour {
 	
 	public int BoardWidth = 30;
 	public int BoardHeight = 13;
-	
-	private double _circlePieceSize;
-	private double _boardRadius;
 
 	public int StartingHeight = 13;
-
-	private double _blockWidth = 1;
-	private double _blockHeight = 1;
-	private double _blockDepth = 1;
 
 	private Dictionary<string, Color32> _blockColors;
 	private Dictionary<string, Texture2D> _blockTextures;
@@ -36,12 +29,18 @@ public class Tower : MonoBehaviour {
 
 	private Material _baseCubeMaterial;
 
+	public int SelectX { get; private set; } = 0;
+	public int SelectY { get; private set; } = 0;
 
-	// Use this for initialization
-	void Start (){
+	public double CirclePieceSize { get; private set; }
+	public double BoardRadius { get; private set; }
+	public double BlockWidth { get; } = 1;
+	public double BlockHeight { get; } = 1;
+	public double BlockDepth { get; } = 1.0/3.0;
 
-		_circlePieceSize = TwoPi / BoardWidth;
-		_boardRadius = (_blockWidth*BoardWidth) / TwoPi;
+	void Awake(){
+		CirclePieceSize = TwoPi / BoardWidth;
+		BoardRadius = (BlockWidth*BoardWidth) / TwoPi;
 		
 		_baseCubeMaterial = Resources.Load<Material>("Materials/base");
 		
@@ -66,6 +65,9 @@ public class Tower : MonoBehaviour {
 		};
 		
 		_blockColorKeys = new List<string>(_blockColors.Keys);
+	}
+
+	void Start (){
 		
 		/*
 		_cubes = new List<GameObject>(CubeCount);
@@ -84,7 +86,7 @@ public class Tower : MonoBehaviour {
 	}
 	
 	public void GenerateMap(){
-		Debug.Log("Generating Map!");
+		//Debug.Log("Generating Map!");
 		
 		_map = new List<List<GameObject>>(BoardWidth);
 		
@@ -94,10 +96,11 @@ public class Tower : MonoBehaviour {
 				column.Add(null);
 			}
 			_map.Add(column);
+			
 		}
 
-		Debug.Log(BoardWidth);
-		Debug.Log(BoardHeight);
+		//Debug.Log(BoardWidth);
+		//Debug.Log(BoardHeight);
 		for (var x = 0; x < BoardWidth; x++) {
 			for (var y = 0; y < BoardHeight; y++) {
 
@@ -106,6 +109,7 @@ public class Tower : MonoBehaviour {
 					continue;
 				}
 
+				//Debug.Log(_blockColorKeys);
 				var colorPool = _blockColorKeys.GetRange(0,_blockColorKeys.Count);
 				var lastXType = "";
 				var lastYType = "";
@@ -136,37 +140,72 @@ public class Tower : MonoBehaviour {
 				//grid[x][y] = colorPool[Math.floor(Math.random() * colorPool.length)];
 				var type = colorPool[(int)Math.Floor(Random.value*colorPool.Count)];
 				//Debug.Log(type);
-				_map[x][y] = _generateBlock(type);
-				_setBlock3dPos(_map[x][y], x, y);
+				_map[x][y] = _generateBlock(type,x,y);
+				//_setBlock3dPos(_map[x][y], x, y);
 			}
 		}
 		//return grid;
 	}
-
+	
+	/*
 	private void _setBlock3dPos(GameObject block, int x, int y){
-		var newX = (Math.Cos(_circlePieceSize * x) * _boardRadius) + gameObject.transform.position.x;
-		var newY = (y * _blockHeight) + (_blockHeight / 2);
-		var newZ = Math.Sin(_circlePieceSize * x) * _boardRadius;
-		var newR = -_circlePieceSize * x + HalfPi;
+		var newX = (Math.Cos(CirclePieceSize * x) * BoardRadius) + gameObject.transform.position.x;
+		var newY = (y * BlockHeight) + (BlockHeight / 2);
+		var newZ = Math.Sin(CirclePieceSize * x) * BoardRadius;
+		var newR = -CirclePieceSize * x + HalfPi;
 		block.transform.position = new Vector3((float)newX,(float)newY,(float)newZ);
 		var degrees = newR * (180 / Pi);
 		block.transform.rotation = Quaternion.Euler(0, (float)degrees, 0);
 	}
+	*/
+	
 
-	private GameObject _generateBlock(string type){
+	private GameObject _generateBlock(string type,int x, int y){
 		var cube = Instantiate(Resources.Load<GameObject>("Cube"));
 		cube.GetComponent<Renderer>().material = new Material(_baseCubeMaterial){
 			color = _blockColors[type],
 			mainTexture = _blockTextures[type]	
 		};
-		cube.GetComponent<Block>().BlockType = type;
 		cube.transform.parent = gameObject.transform;
+		var cubeScript = cube.GetComponent<Block>();
+		cubeScript.BlockType = type;
+		cubeScript.x = x;
+		cubeScript.y = y;
+		cubeScript.angleBlockUsingPos();
 		return cube;
 	}
 	
-	
 	public void up(){
 		
+	}
+
+	public void ProcessInputs(Dictionary<string,PuzzleKey> inputs){
+		if (inputs["left"].active){
+			SelectX--;	
+		}
+		if (inputs["right"].active){
+			SelectX++;	
+		}
+		if (inputs["up"].active){
+			SelectY++;	
+		}
+		if (inputs["down"].active){
+			SelectY--;	
+		}
+		
+		
+		if (SelectY >= BoardHeight){
+			SelectY = BoardHeight - 1;
+		}
+		if (SelectY < 0){
+			SelectY = 0;
+		}
+		if (SelectX >= BoardWidth){
+			SelectX = 0;
+		}
+		if (SelectX < 0){
+			SelectX = BoardWidth-1;
+		}
 	}
 	
 	// Update is called once per frame
@@ -188,13 +227,24 @@ public class Tower : MonoBehaviour {
 		}
 		*/
 
+		
 		for (var x = 0; x < BoardWidth; x++){
 			for (var y = 0; y < BoardHeight; y++){
-				_map[x][y].transform.rotation *= Quaternion.Euler(Random.value,Random.value,Random.value);
+				if (x == SelectX && y == SelectY){
+					_map[x][y].transform.rotation *= Quaternion.Euler(0,5f,0);	
+				}
+				else{
+					//_setBlock3dPos(_map[x][y],x,y);
+					_map[x][y].GetComponent<Block>().angleBlockUsingPos();
+				}
+				
 			}
 		}
 		
-		gameObject.transform.rotation = Quaternion.Euler(0,(float)Math.Sin(_time)*360,0);
+
+		
+		
+		//gameObject.transform.rotation = Quaternion.Euler(0,(float)Math.Sin(_time)*360,0);
 		
 	}
 }
