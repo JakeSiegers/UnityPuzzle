@@ -12,9 +12,6 @@ public class Tower : MonoBehaviour {
 	private List<GameObject> _cubes;
 	private GameObject _cube;
 	private double _time = 0;
-	private const double Pi = Math.PI;
-	private const double TwoPi = Pi * 2;
-	private const double HalfPi = Pi/2;
 	
 	public int BoardWidth = 30;
 	public int BoardHeight = 13;
@@ -37,10 +34,10 @@ public class Tower : MonoBehaviour {
 	public double BlockWidth { get; } = 1;
 	public double BlockHeight { get; } = 1;
 	public double BlockDepth { get; } = 1.0/3.0;
-
+	
 	void Awake(){
-		CirclePieceSize = TwoPi / BoardWidth;
-		BoardRadius = (BlockWidth*BoardWidth) / TwoPi;
+		CirclePieceSize = PuzzleVars.TwoPi / BoardWidth;
+		BoardRadius = (BlockWidth*BoardWidth) / PuzzleVars.TwoPi;
 		
 		_baseCubeMaterial = Resources.Load<Material>("Materials/base");
 		
@@ -164,7 +161,7 @@ public class Tower : MonoBehaviour {
 		var cube = Instantiate(Resources.Load<GameObject>("Cube"));
 		cube.GetComponent<Renderer>().material = new Material(_baseCubeMaterial){
 			color = _blockColors[type],
-			mainTexture = _blockTextures[type]	
+			mainTexture = _blockTextures[type],
 		};
 		cube.transform.parent = gameObject.transform;
 		var cubeScript = cube.GetComponent<Block>();
@@ -180,16 +177,16 @@ public class Tower : MonoBehaviour {
 	}
 
 	public void ProcessInputs(Dictionary<string,PuzzleKey> inputs){
-		if (inputs["left"].active){
+		if (inputs["left"].Active){
 			SelectX--;	
 		}
-		if (inputs["right"].active){
+		if (inputs["right"].Active){
 			SelectX++;	
 		}
-		if (inputs["up"].active){
+		if (inputs["up"].Active){
 			SelectY++;	
 		}
-		if (inputs["down"].active){
+		if (inputs["down"].Active){
 			SelectY--;	
 		}
 		
@@ -211,7 +208,7 @@ public class Tower : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
-		_time = (Time.time/2)%TwoPi;
+		_time = (Time.time/2)%PuzzleVars.TwoPi;
 
 		/*
 		for (var i = 0; i < _cubes.Capacity; i++)
@@ -240,11 +237,9 @@ public class Tower : MonoBehaviour {
 				
 			}
 		}
-		
 
-		
-		
+
 		//gameObject.transform.rotation = Quaternion.Euler(0,(float)Math.Sin(_time)*360,0);
-		
+
 	}
 }

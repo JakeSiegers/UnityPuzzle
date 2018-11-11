@@ -1,12 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour{
 	public Tower tower1;
 	//public Tower tower2;
 	public Dictionary<string, PuzzleKey> keys;
 	private float holdDelay = 0.1f;
+	public Text debugText;
+
+	public static Vector2 cursorPos = new Vector2(0,0);
 	
 	private void Awake(){
 		keys = new Dictionary<string, PuzzleKey>();
@@ -50,18 +54,21 @@ public class GameController : MonoBehaviour{
 			keys["down"].Reset();
 		}
 		
-		
 		tower1.ProcessInputs(keys);
-
+		
 	}
 
+	public static void penis(){
+		
+	}	
+	
 	private void processKey(string keyName){
-		if (!keys[keyName].pressed || Time.time - keys[keyName].lastPressed > holdDelay){
-			keys[keyName].lastPressed = Time.time;
-			keys[keyName].active = true;	
+		if (!keys[keyName].Pressed || Time.time - keys[keyName].LastPressed > holdDelay){
+			keys[keyName].LastPressed = Time.time;
+			keys[keyName].Active = true;	
 		}else{
-			keys[keyName].active = false;
+			keys[keyName].Active = false;
 		}
-		keys[keyName].pressed = true;
+		keys[keyName].Pressed = true;
 	}
 }

@@ -1,4 +1,5 @@
 using System;
+using UnityEngine;
 
 public class PuzzleVars{
 	public const double Pi = Math.PI;
@@ -7,12 +8,12 @@ public class PuzzleVars{
 }
 
 public class PuzzleKey{
-	public float lastPressed = 0f;
-	public bool pressed = false;
-	public bool active = false;
-
+	public float LastPressed = 0f;
+	public bool Pressed = false;
+	public bool Active = false;
+	
 	public void Reset(){
-		pressed = false;
-		active = false;
+		Pressed = false;
+		Active = false;
 	}
 }

@@ -17,7 +17,7 @@ public class Block : GameController{
 		var newY = (y * parentTower.BlockHeight) + (parentTower.BlockHeight / 2);
 		var newZ = Math.Sin(parentTower.CirclePieceSize * x) * parentTower.BoardRadius;
 		var newR = -parentTower.CirclePieceSize * x + PuzzleVars.HalfPi;
-		gameObject.transform.position = new Vector3((float)newX,(float)newY,(float)newZ);
+		gameObject.transform.localPosition = new Vector3((float)newX,(float)newY,(float)newZ);
 		var degrees = newR * (180 / PuzzleVars.Pi);
 		gameObject.transform.rotation = Quaternion.Euler(0, (float)degrees, 0);
 		
