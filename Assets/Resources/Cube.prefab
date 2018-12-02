@@ -37,7 +37,7 @@ Transform:
   m_GameObject: {fileID: 1854336893253472}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.3333}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -83,7 +83,7 @@ MeshFilter:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1854336893253472}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 4300002, guid: 4e3b74e2959287b41b2a6c5b7feeda0c, type: 3}
 --- !u!114 &114768456092741476
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -95,4 +95,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4dd0ff43a695a0409f82dcf01fb1564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tower1: {fileID: 0}
+  debugText: {fileID: 0}
   BlockType: 
+  x: 0
+  y: 0

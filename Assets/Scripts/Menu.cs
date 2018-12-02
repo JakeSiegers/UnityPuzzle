@@ -15,21 +15,23 @@ public class Menu : MonoBehaviour {
 	private Material _baseCubeMaterial;
 	private Texture2D _baseCubeTexture;
 	private TextMeshPro _text;
+	//private Vector3 menuSize = new Vector3(2,2,0.3f);
+	private Vector3 menuPosition = new Vector3(0,7,-9);
 	
 
 	// Use this for initialization
 	private void Start () {
-		_baseCubeTexture = Resources.Load<Texture2D>("Textures/block_circle");
-		_baseCubeMaterial = Resources.Load<Material>("Materials/base");
+		//_baseCubeTexture = Resources.Load<Texture2D>("Textures/block_circle");
+		//_baseCubeMaterial = Resources.Load<Material>("Materials/base");
 		
 		//gameObject.GetComponent<Renderer>().material.mainTexture = new Texture2D(128, 128);
 
 		GameObject ga = new GameObject();
 		_text = ga.AddComponent<TextMeshPro>();
 		_text.transform.parent = gameObject.transform;
-		_text.text = "My Menu";
-		_text.fontSize = 10;
-		_text.transform.localPosition  = new Vector3(0,0,-1);
+		_text.text = "Click Anywhere\nto Start";
+		_text.fontSize = 2;
+		_text.transform.localPosition  = new Vector3(0,0,-0.6f);
 		_text.alignment = TextAlignmentOptions.Center;
 		Debug.Log(_text);
 
@@ -40,10 +42,25 @@ public class Menu : MonoBehaviour {
 		//};
 
 
-		gameObject.GetComponent<Renderer>().material.DOColor(Color.green, 10);
+		//gameObject.GetComponent<Renderer>().material.DOColor(Color.green, 10);
+
 		
-		InvokeRepeating ("flip", 0, 2); 
+		gameObject.transform.localScale = Vector3.zero;
+		gameObject.transform.position = new Vector3(0,7,0);
+		gameObject.transform.rotation = Quaternion.Euler(180,-270,0);
 		
+		var cube = Instantiate(Resources.Load<GameObject>("Cube"));
+		cube.transform.SetParent(gameObject.transform, false);
+		cube.transform.localPosition = new Vector3(0,0,-0.1f);
+		cube.transform.localScale = Vector3.one;
+
+		gameObject.transform.DOMove(menuPosition,2).SetEase(Ease.InOutExpo);		
+		gameObject.transform.DOScale(Vector3.one,2).SetEase(Ease.InOutExpo);
+		gameObject.transform.DORotate(Vector3.zero, 2).SetEase(Ease.InOutExpo);
+
+		//InvokeRepeating ("flip", 0, 2); 
+		
+
 	}
 
 	void flip(){
