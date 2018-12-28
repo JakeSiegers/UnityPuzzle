@@ -1,57 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Assets/Scripts/MenuBlock.cs" line="48" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5b2f7d4-2416-465a-b05b-fc6c65aab3af" name="Default" comment="Learned more about 3d modeling and uv texture mapping&#10;Improved cube textures&#10;Started working on menu buttons">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Resource Loading/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Resource Loading/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Resource Loading/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="b5b2f7d4-2416-465a-b05b-fc6c65aab3af" name="Default" comment="Updated Unity&#10;Updated Tween Library&#10;Adjusted menu blocks and models&#10;Added separate menu block scripts">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Resource Loading/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Resource Loading/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Resource Loading/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Resource Loading/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/DOTween.XML" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/DOTween/DOTween.XML" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/DOTween.XML.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/DOTween.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/DOTween/DOTween.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/DOTween.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/DOTween/DOTween.dll.mdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/DOTween.dll.mdb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/DOTween.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Editor/DOTweenEditor.XML" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/DOTween/Editor/DOTweenEditor.XML" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Editor/DOTweenEditor.XML.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Editor/DOTweenEditor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/DOTween/Editor/DOTweenEditor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Editor/DOTweenEditor.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/DOTween/Editor/DOTweenEditor.dll.mdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Editor/DOTweenEditor.dll.mdb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Editor/DOTweenEditor.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Editor/Imgs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Editor/Imgs/DOTweenIcon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Editor/Imgs/Footer.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Editor/Imgs/Footer_dark.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Editor/Imgs/Header.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Modules.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Modules/DOTweenModuleAudio.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Modules/DOTweenModulePhysics.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Modules/DOTweenModulePhysics2D.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Modules/DOTweenModuleSprite.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Modules/DOTweenModuleUI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Modules/DOTweenModuleUnityVersion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/DOTween/Modules/DOTweenModuleUnityVersion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Modules/DOTweenModuleUnityVersion.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Modules/DOTweenModuleUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/DOTween/Modules/DOTweenModuleUtils.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Modules/DOTweenModuleUtils.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/readme.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Cube.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Cube.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/MenuButton.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/MenuButton.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Models/menuBlock.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Models/menuBlock.blend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Models/menuBlock.blend.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Models/menuBlock.blend.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/MenuBlock.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/MenuBlock.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tower.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MenuBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MenuBlock.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,8 +32,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tower.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3135">
-                  <caret line="230" selection-start-line="230" selection-end-line="230" />
+                <state relative-caret-position="450">
+                  <caret line="36" column="4" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
                   <folding>
                     <marker date="1545009053113" expanded="false" signature="6:179" ph="..." />
                     <marker date="1545009053113" expanded="true" signature="216:6906" ph="{...}" />
@@ -127,35 +84,22 @@
             <entry file="file://$PROJECT_DIR$/Assets/Scripts/MenuBlock.cs">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="660">
-                  <caret line="44" column="46" lean-forward="true" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
+                  <caret line="51" column="64" lean-forward="true" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
                   <folding>
-                    <marker date="1546020515873" expanded="true" signature="6:110" ph="..." />
-                    <marker date="1546020515873" expanded="true" signature="150:1510" ph="{...}" />
-                    <marker date="1546020515873" expanded="true" signature="289:962" ph="{...}" />
-                    <marker date="1546020515873" expanded="true" signature="1020:1036" ph="{...}" />
-                    <marker date="1546020515873" expanded="true" signature="1065:1149" ph="{...}" />
-                    <marker date="1546020515873" expanded="true" signature="1183:1348" ph="{...}" />
-                    <marker date="1546020515873" expanded="true" signature="1369:1432" ph="{...}" />
-                    <marker date="1546020515873" expanded="true" signature="1462:1508" ph="{...}" />
+                    <marker date="1546024638085" expanded="true" signature="6:124" ph="..." />
+                    <marker date="1546024638085" expanded="true" signature="164:2217" ph="{...}" />
+                    <marker date="1546024638085" expanded="true" signature="281:453" ph="{...}" />
+                    <marker date="1546024638085" expanded="true" signature="394:450" ph="{...}" />
+                    <marker date="1546024638085" expanded="true" signature="480:730" ph="{...}" />
+                    <marker date="1546024638085" expanded="true" signature="813:1005" ph="{...}" />
+                    <marker date="1546024638085" expanded="true" signature="1060:1585" ph="{...}" />
+                    <marker date="1546024638085" expanded="true" signature="1612:1628" ph="{...}" />
+                    <marker date="1546024638085" expanded="true" signature="1657:1783" ph="{...}" />
+                    <marker date="1546024638085" expanded="true" signature="1811:1856" ph="{...}" />
+                    <marker date="1546024638085" expanded="true" signature="1890:2055" ph="{...}" />
+                    <marker date="1546024638085" expanded="true" signature="2076:2139" ph="{...}" />
+                    <marker date="1546024638085" expanded="true" signature="2169:2215" ph="{...}" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9227A5B2-DE2A-4AE4-92B8-8950EE42B3BD/4a/1351663b/Tween.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="705">
-                  <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9227A5B2-DE2A-4AE4-92B8-8950EE42B3BD/90/c7543176/Tween.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="705">
-                  <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -172,7 +116,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Scripts/Block.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
+                <state relative-caret-position="300">
                   <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
                   <folding>
                     <marker date="1541975399910" expanded="false" signature="6:92" ph="..." />
@@ -230,21 +174,20 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Assets/Scripts/Menu.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="665">
-                  <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+                <state relative-caret-position="548">
+                  <caret line="43" column="104" selection-start-line="43" selection-start-column="104" selection-end-line="43" selection-end-column="104" />
                   <folding>
-                    <marker date="1545024935001" expanded="false" signature="6:181" ph="..." />
-                    <marker date="1545024935001" expanded="true" signature="217:3228" ph="{...}" />
-                    <marker date="1545024935001" expanded="true" signature="531:1727" ph="{...}" />
-                    <marker date="1545024935001" expanded="true" signature="535:766" ph="/* _baseCubeTexture = Resources.Load&lt;Texture2D&gt;(&quot;Textures/block_circle&quot;); ... */" />
-                    <marker date="1545024935001" expanded="true" signature="775:932" ph="/* gameObject.GetComponent&lt;Renderer&gt;().material = new Material(_baseCubeMaterial){ ... */" />
-                    <marker date="1545024935001" expanded="true" signature="1741:1877" ph="{...}" />
-                    <marker date="1545024935001" expanded="true" signature="1940:2178" ph="{...}" />
-                    <marker date="1545024935001" expanded="true" signature="1944:2175" ph="/* _time = (Time.time/2)%PuzzleVars.TwoPi; ... */" />
-                    <marker date="1545024935001" expanded="true" signature="2209:3173" ph="{...}" />
-                    <marker date="1545024935001" expanded="true" signature="2410:3167" ph="{...}" />
-                    <marker date="1545024935001" expanded="true" signature="2483:3162" ph="/* Vector3 incomingVec = hit.normal - Vector3.up; ... */" />
-                    <marker date="1545024935001" expanded="true" signature="3200:3226" ph="{...}" />
+                    <marker date="1546024782728" expanded="true" signature="6:236" ph="..." />
+                    <marker date="1546024782728" expanded="true" signature="272:3367" ph="{...}" />
+                    <marker date="1546024782728" expanded="true" signature="586:1765" ph="{...}" />
+                    <marker date="1546024782728" expanded="true" signature="590:821" ph="/* _baseCubeTexture = Resources.Load&lt;Texture2D&gt;(&quot;Textures/block_circle&quot;); ... */" />
+                    <marker date="1546024782728" expanded="true" signature="830:987" ph="/* gameObject.GetComponent&lt;Renderer&gt;().material = new Material(_baseCubeMaterial){ ... */" />
+                    <marker date="1546024782728" expanded="true" signature="1779:1904" ph="{...}" />
+                    <marker date="1546024782728" expanded="true" signature="1966:2204" ph="{...}" />
+                    <marker date="1546024782728" expanded="true" signature="1970:2201" ph="/* _time = (Time.time/2)%PuzzleVars.TwoPi; ... */" />
+                    <marker date="1546024782728" expanded="true" signature="2208:2523" ph="/* private void MenuRayCasts(){ ... */" />
+                    <marker date="1546024782728" expanded="true" signature="2527:3267" ph="/* Vector3 incomingVec = hit.normal - Vector3.up; ... */" />
+                    <marker date="1546024782728" expanded="true" signature="3323:3365" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -282,9 +225,11 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F718FBF7-147E-4022-82FD-ACF37BDD8584/7c/3696b19a/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ECB5D8E2-0A91-44BC-A4F2-58317D1E56F9/e4/ce1569cb/ArrayList.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F718FBF7-147E-4022-82FD-ACF37BDD8584/89/84078744/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/DOTween/Editor/Imgs/DOTweenIcon.png.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TextMeshPro.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F718FBF7-147E-4022-82FD-ACF37BDD8584/25/7b1637c9/Random.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/19E52A84-9248-47D4-A823-84169FA74432/56/18efa50f/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectSettings/VFXManager.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2F14D49E-DC70-4940-AEE5-57642343F344/ff/76b826f5/WaitForSeconds.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ECB5D8E2-0A91-44BC-A4F2-58317D1E56F9/2c/a3ff10e5/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9227A5B2-DE2A-4AE4-92B8-8950EE42B3BD/90/c7543176/Tween.cs" root0="SKIP_HIGHLIGHTING" />
@@ -304,9 +249,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Block.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MenuButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tower.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MenuBlock.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu.cs" />
       </list>
     </option>
   </component>
@@ -414,7 +359,7 @@
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="ParameterNameHintsOptionsId" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -480,7 +425,7 @@
       <workItem from="1545005471879" duration="9499000" />
       <workItem from="1546018937559" duration="308000" />
       <workItem from="1546019277075" duration="184000" />
-      <workItem from="1546019478574" duration="1123000" />
+      <workItem from="1546019478574" duration="5299000" />
     </task>
     <task id="LOCAL-00001" summary="Moved files out of git lfs">
       <created>1535853606212</created>
@@ -587,11 +532,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543773205970</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Updated Unity&#10;Updated Tween Library&#10;Adjusted menu blocks and models&#10;Added separate menu block scripts">
+      <created>1546020752605</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1546020752605</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87564000" />
+    <option name="totallyTimeSpent" value="91740000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -606,7 +558,7 @@
     <frame x="-2568" y="329" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14308426" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14308426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -621,7 +573,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" order="9" weight="0.33280382" />
+      <window_info active="true" anchor="bottom" id="Unity" order="9" visible="true" weight="0.24761905" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.33995235" />
@@ -683,7 +635,8 @@
     <MESSAGE value="Started playing with ray casting and text mesh pro" />
     <MESSAGE value="Moved text plugin&#10;Playing with tween libraries" />
     <MESSAGE value="Learned more about 3d modeling and uv texture mapping&#10;Improved cube textures&#10;Started working on menu buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learned more about 3d modeling and uv texture mapping&#10;Improved cube textures&#10;Started working on menu buttons" />
+    <MESSAGE value="Updated Unity&#10;Updated Tween Library&#10;Adjusted menu blocks and models&#10;Added separate menu block scripts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Unity&#10;Updated Tween Library&#10;Adjusted menu blocks and models&#10;Added separate menu block scripts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -793,10 +746,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9227A5B2-DE2A-4AE4-92B8-8950EE42B3BD/72/77784dce/TweenCallback.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PuzzleVars.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <marker date="1541971207599" expanded="false" signature="6:32" ph="..." />
+            <marker date="1541971207599" expanded="true" signature="57:168" ph="{...}" />
+            <marker date="1541971207599" expanded="true" signature="192:350" ph="{...}" />
+            <marker date="1541971207599" expanded="true" signature="307:348" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <marker date="1541971595003" expanded="false" signature="6:88" ph="..." />
+            <marker date="1541971595003" expanded="true" signature="133:1415" ph="{...}" />
+            <marker date="1541971595003" expanded="true" signature="359:544" ph="{...}" />
+            <marker date="1541971595003" expanded="true" signature="559:613" ph="{...}" />
+            <marker date="1541971595003" expanded="true" signature="629:1092" ph="{...}" />
+            <marker date="1541971595003" expanded="true" signature="744:772" ph="{...}" />
+            <marker date="1541971595003" expanded="true" signature="827:856" ph="{...}" />
+            <marker date="1541971595003" expanded="true" signature="912:938" ph="{...}" />
+            <marker date="1541971595003" expanded="true" signature="991:1019" ph="{...}" />
+            <marker date="1541971595003" expanded="true" signature="1121:1128" ph="{...}" />
+            <marker date="1541971595003" expanded="true" signature="1172:1413" ph="{...}" />
+            <marker date="1541971595003" expanded="true" signature="1256:1336" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9227A5B2-DE2A-4AE4-92B8-8950EE42B3BD/90/c7543176/Tween.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9227A5B2-DE2A-4AE4-92B8-8950EE42B3BD/4a/1351663b/Tween.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Block.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <marker date="1541975399910" expanded="false" signature="6:92" ph="..." />
+            <marker date="1541975399910" expanded="true" signature="129:923" ph="{...}" />
+            <marker date="1541975399910" expanded="true" signature="222:872" ph="{...}" />
+            <marker date="1541975399910" expanded="true" signature="889:896" ph="{...}" />
+            <marker date="1541975399910" expanded="true" signature="914:921" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tower.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3135">
-          <caret line="230" selection-start-line="230" selection-end-line="230" />
+        <state relative-caret-position="450">
+          <caret line="36" column="4" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
           <folding>
             <marker date="1545009053113" expanded="false" signature="6:179" ph="..." />
             <marker date="1545009053113" expanded="true" signature="216:6906" ph="{...}" />
@@ -842,109 +864,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9227A5B2-DE2A-4AE4-92B8-8950EE42B3BD/90/c7543176/Tween.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MenuBlock.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9227A5B2-DE2A-4AE4-92B8-8950EE42B3BD/72/77784dce/TweenCallback.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Block.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="660">
+          <caret line="51" column="64" lean-forward="true" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
           <folding>
-            <marker date="1541975399910" expanded="false" signature="6:92" ph="..." />
-            <marker date="1541975399910" expanded="true" signature="129:923" ph="{...}" />
-            <marker date="1541975399910" expanded="true" signature="222:872" ph="{...}" />
-            <marker date="1541975399910" expanded="true" signature="889:896" ph="{...}" />
-            <marker date="1541975399910" expanded="true" signature="914:921" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PuzzleVars.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <marker date="1541971207599" expanded="false" signature="6:32" ph="..." />
-            <marker date="1541971207599" expanded="true" signature="57:168" ph="{...}" />
-            <marker date="1541971207599" expanded="true" signature="192:350" ph="{...}" />
-            <marker date="1541971207599" expanded="true" signature="307:348" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <marker date="1541971595003" expanded="false" signature="6:88" ph="..." />
-            <marker date="1541971595003" expanded="true" signature="133:1415" ph="{...}" />
-            <marker date="1541971595003" expanded="true" signature="359:544" ph="{...}" />
-            <marker date="1541971595003" expanded="true" signature="559:613" ph="{...}" />
-            <marker date="1541971595003" expanded="true" signature="629:1092" ph="{...}" />
-            <marker date="1541971595003" expanded="true" signature="744:772" ph="{...}" />
-            <marker date="1541971595003" expanded="true" signature="827:856" ph="{...}" />
-            <marker date="1541971595003" expanded="true" signature="912:938" ph="{...}" />
-            <marker date="1541971595003" expanded="true" signature="991:1019" ph="{...}" />
-            <marker date="1541971595003" expanded="true" signature="1121:1128" ph="{...}" />
-            <marker date="1541971595003" expanded="true" signature="1172:1413" ph="{...}" />
-            <marker date="1541971595003" expanded="true" signature="1256:1336" ph="{...}" />
+            <marker date="1546024638085" expanded="true" signature="6:124" ph="..." />
+            <marker date="1546024638085" expanded="true" signature="164:2217" ph="{...}" />
+            <marker date="1546024638085" expanded="true" signature="281:453" ph="{...}" />
+            <marker date="1546024638085" expanded="true" signature="394:450" ph="{...}" />
+            <marker date="1546024638085" expanded="true" signature="480:730" ph="{...}" />
+            <marker date="1546024638085" expanded="true" signature="813:1005" ph="{...}" />
+            <marker date="1546024638085" expanded="true" signature="1060:1585" ph="{...}" />
+            <marker date="1546024638085" expanded="true" signature="1612:1628" ph="{...}" />
+            <marker date="1546024638085" expanded="true" signature="1657:1783" ph="{...}" />
+            <marker date="1546024638085" expanded="true" signature="1811:1856" ph="{...}" />
+            <marker date="1546024638085" expanded="true" signature="1890:2055" ph="{...}" />
+            <marker date="1546024638085" expanded="true" signature="2076:2139" ph="{...}" />
+            <marker date="1546024638085" expanded="true" signature="2169:2215" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Menu.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+        <state relative-caret-position="548">
+          <caret line="43" column="104" selection-start-line="43" selection-start-column="104" selection-end-line="43" selection-end-column="104" />
           <folding>
-            <marker date="1545024935001" expanded="false" signature="6:181" ph="..." />
-            <marker date="1545024935001" expanded="true" signature="217:3228" ph="{...}" />
-            <marker date="1545024935001" expanded="true" signature="531:1727" ph="{...}" />
-            <marker date="1545024935001" expanded="true" signature="535:766" ph="/* _baseCubeTexture = Resources.Load&lt;Texture2D&gt;(&quot;Textures/block_circle&quot;); ... */" />
-            <marker date="1545024935001" expanded="true" signature="775:932" ph="/* gameObject.GetComponent&lt;Renderer&gt;().material = new Material(_baseCubeMaterial){ ... */" />
-            <marker date="1545024935001" expanded="true" signature="1741:1877" ph="{...}" />
-            <marker date="1545024935001" expanded="true" signature="1940:2178" ph="{...}" />
-            <marker date="1545024935001" expanded="true" signature="1944:2175" ph="/* _time = (Time.time/2)%PuzzleVars.TwoPi; ... */" />
-            <marker date="1545024935001" expanded="true" signature="2209:3173" ph="{...}" />
-            <marker date="1545024935001" expanded="true" signature="2410:3167" ph="{...}" />
-            <marker date="1545024935001" expanded="true" signature="2483:3162" ph="/* Vector3 incomingVec = hit.normal - Vector3.up; ... */" />
-            <marker date="1545024935001" expanded="true" signature="3200:3226" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9227A5B2-DE2A-4AE4-92B8-8950EE42B3BD/4a/1351663b/Tween.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MenuBlock.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="46" lean-forward="true" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
-          <folding>
-            <marker date="1546020515873" expanded="true" signature="6:110" ph="..." />
-            <marker date="1546020515873" expanded="true" signature="150:1510" ph="{...}" />
-            <marker date="1546020515873" expanded="true" signature="289:962" ph="{...}" />
-            <marker date="1546020515873" expanded="true" signature="1020:1036" ph="{...}" />
-            <marker date="1546020515873" expanded="true" signature="1065:1149" ph="{...}" />
-            <marker date="1546020515873" expanded="true" signature="1183:1348" ph="{...}" />
-            <marker date="1546020515873" expanded="true" signature="1369:1432" ph="{...}" />
-            <marker date="1546020515873" expanded="true" signature="1462:1508" ph="{...}" />
+            <marker date="1546024782728" expanded="true" signature="6:236" ph="..." />
+            <marker date="1546024782728" expanded="true" signature="272:3367" ph="{...}" />
+            <marker date="1546024782728" expanded="true" signature="586:1765" ph="{...}" />
+            <marker date="1546024782728" expanded="true" signature="590:821" ph="/* _baseCubeTexture = Resources.Load&lt;Texture2D&gt;(&quot;Textures/block_circle&quot;); ... */" />
+            <marker date="1546024782728" expanded="true" signature="830:987" ph="/* gameObject.GetComponent&lt;Renderer&gt;().material = new Material(_baseCubeMaterial){ ... */" />
+            <marker date="1546024782728" expanded="true" signature="1779:1904" ph="{...}" />
+            <marker date="1546024782728" expanded="true" signature="1966:2204" ph="{...}" />
+            <marker date="1546024782728" expanded="true" signature="1970:2201" ph="/* _time = (Time.time/2)%PuzzleVars.TwoPi; ... */" />
+            <marker date="1546024782728" expanded="true" signature="2208:2523" ph="/* private void MenuRayCasts(){ ... */" />
+            <marker date="1546024782728" expanded="true" signature="2527:3267" ph="/* Vector3 incomingVec = hit.normal - Vector3.up; ... */" />
+            <marker date="1546024782728" expanded="true" signature="3323:3365" ph="{...}" />
           </folding>
         </state>
       </provider>
