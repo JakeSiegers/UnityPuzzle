@@ -6,20 +6,25 @@ ModelImporter:
     100000: //RootNode
     100002: ButtonModel
     100004: MenuModel
+    100006: MenuButtonModel
     400000: //RootNode
     400002: ButtonModel
     400004: MenuModel
+    400006: MenuButtonModel
     2100000: Material
     2300000: //RootNode
     2300002: ButtonModel
     2300004: MenuModel
+    2300006: MenuButtonModel
     3300000: //RootNode
     3300002: ButtonModel
     3300004: MenuModel
+    3300006: MenuButtonModel
     4300000: Cube
     4300002: MenuModel
     4300004: BlockModel
     4300006: ButtonModel
+    4300008: MenuButtonModel
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}
@@ -56,6 +61,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -80,6 +86,9 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 0
   copyAvatar: 0
   humanDescription:

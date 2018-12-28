@@ -158,7 +158,7 @@ public class Tower : MonoBehaviour {
 	
 
 	private GameObject _generateBlock(string type,int x, int y){
-		var cube = Instantiate(Resources.Load<GameObject>("Cube"));
+		var cube = Instantiate(Resources.Load<GameObject>("Prefabs/Cube"));
 		cube.GetComponent<Renderer>().material = new Material(_baseCubeMaterial){
 			color = _blockColors[type],
 			mainTexture = _blockTextures[type],
